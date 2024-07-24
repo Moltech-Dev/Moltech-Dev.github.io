@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MolTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icono.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="icono.png" alt="Icono de MolTech" class="header-icon">
+            <h1>Bienvenidos a MolTech</h1>
+        </div>
+    </header>
+    <main>
+        <div class="slideshow-container">
+            <!-- Video -->
+            <div class="mySlides fade">
+                <video style="width:100%" autoplay loop muted>
+                    <source src="video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+
+            <!-- Flechas de navegación, si las necesitas -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+        </div>
+
+        <p>Sitio en mantenimiento, disculpe las molestias.</p>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>Contacto:</p>
+            <p>Correo: <a href="mailto:contacto@moltech.com">contacto@moltech.com</a></p>
+            <p>Teléfono: <a href="tel:+123456789">+1 234 567 89</a></p>
+            <p>WhatsApp: <a href="https://wa.me/123456789" target="_blank">+1 234 567 89</a></p>
+        </div>
+        <p><em>&copy; 2024 MolTech-Dev</em> <img src="icono.png" alt="Icono de MolTech" style="width: 38px; height: 38px;"></p>
+    </footer>
+
+    <!-- Vinculación del archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
